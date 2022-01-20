@@ -1,0 +1,24 @@
+.relationship-section {
+  background: linear-gradient(to bottom, #fff6f3 0%, #fffefb 100%);
+}
+.relationship-section .badges-content p {
+  font-size: 15px;
+  line-height: 22px;
+  padding: 0 50px;
+  margin-top: 10px;
+}
+.badges-content {
+  text-align: center;
+}
+
+.relationship-section .rela-footer p {
+  font-size: 30px;
+  color: #050748;
+  margin: 0 30px 0 0;
+}
+.relationship-section .rela-footer p span {
+  font-weight: 700;
+}
+.rela-desc {
+  display: inline-flex;
+}

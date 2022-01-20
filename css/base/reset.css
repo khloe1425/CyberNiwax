@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-os-font-smoothing: grayscale;
+}
+
+body {
+    font-family: open sans, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    overflow-x: hidden;
+    color: #6A6A8E;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    color: #050748;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 57px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 52px;
+}
+
+h3 {
+    font-size: 34px;
+    line-height: 46px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+.small, small {
+    font-size: .875em;
+}

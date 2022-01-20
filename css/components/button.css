@@ -1,0 +1,140 @@
+.btn-main {
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 56px;
+  position: relative;
+  display: inline-block;
+  padding: 0 32px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  background-color: #ff1f8e;
+  box-shadow: 0 10px 15px 0 rgba(233, 30, 99, 0.15);
+}
+
+.btn-main:hover {
+  color: #fff;
+}
+
+.btn-outline {
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  line-height: 52px;
+  display: inline-block;
+  padding: 0 32px;
+  color: #050748;
+  border: 2px solid #000248;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0 10px 15px 0 rgba(3, 35, 68, 0.1);
+}
+
+.btn-outline:hover {
+  color: #fff;
+  border: 2px solid #ff1f8e;
+  background: #ff1f8e;
+}
+
+.bg-btn {
+  background: #ffbd84;
+  background: linear-gradient(to right, #ffbd84 0%, #ff1f8e 100%);
+  box-shadow: 0 10px 15px 0 rgba(175, 0, 87, 0.2);
+}
+
+.bg-btn3 {
+  background: #673ab7;
+  background: linear-gradient(to right, #673ab7 0%, #2196f3 100%);
+  box-shadow: 0 10px 15px 0 rgba(56, 0, 189, 0.2);
+}
+
+.rount-btn {
+  font-size: 18px;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  text-align: center;
+  border: 2px solid #dcdcdc;
+}
+
+span.circle {
+  position: absolute;
+  top: -10%;
+  right: -130px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.lnk:hover span.circle {
+  top: -10%;
+  right: -80px;
+}
+
+.triangle-play2 {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 12px solid #ff2d8d;
+}
+
+.niwax-btn1 {
+  padding: 2px;
+  display: inline-block;
+  outline: 0;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    #ffd523 0%,
+    #ff7f00 16%,
+    #ff271a 32%,
+    #a139ff 48%,
+    #0081ff 64%,
+    #60b5ff 80%,
+    #00e953 100%
+  );
+  border-radius: 30px;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+.niwax-btn1 > span {
+  display: block;
+  padding: 0 32px;
+  line-height: 56px;
+  font-size: 16px;
+  background: #fff;
+  border-radius: 30px;
+  color: #050748;
+}
+/* btn2 */
+.bg-btn2 {
+  background: linear-gradient(to right, #f92c8b 0%, #b02cd6 100%);
+  box-shadow: 0 10px 15px 0 rgba(175, 0, 202, 0.2);
+  display: inline-flex;
+  justify-content: center;
+  white-space: nowrap;
+  align-items: center;
+}
+/* header-btn */
+.header-btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 32px;
+  line-height: 56px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+}

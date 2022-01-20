@@ -1,0 +1,40 @@
+section.agency {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background: #FFF8F2;
+}
+
+.text-second {
+    color: #E91E63;
+}
+
+.agency .col-lg-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.text-animation {
+    font-weight: 700;
+    padding: 0 3px;
+    -webkit-animation: hue 6s infinite linear;
+    border-radius: 3px;
+    background-image: linear-gradient(
+            to right,
+            #673AB7 0%,
+            #E91E63 36%,
+            #E91E63 65%,
+            #673AB7 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Animation text */
+@keyframes hue {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 2000px 0;
+    }
+}

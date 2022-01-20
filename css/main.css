@@ -1,0 +1,21 @@
+@import url(./base/reset.css);
+@import url(./base/customBS4.css);
+@import url(./base/color.css);
+@import url(./components/button.css);
+@import url(./components/owl-carousel.css);
+/* Page */
+@import url(./page/header.css);
+@import url(./page/white-header.css);
+@import url(./page/banner.css);
+@import url(./page/agency.css);
+@import url(./page/services.css);
+@import url(./page/statistics.css);
+@import url(./page/chooseUs.css);
+@import url(./page/portfolio.css);
+@import url(./page/happyCustomer.css);
+@import url(./page/relationship.css);
+@import url(./page/work.css);
+@import url(./page/testimonial.css);
+@import url(./page/cta.css);
+@import url(./page/location.css);
+@import url(./page/footer.css);

@@ -1,0 +1,48 @@
+.cta-area {
+    position: relative;
+    overflow: hidden;
+    background: #E0F8FF;
+    background: -moz-linear-gradient(top, #E0F8FF 0%, #FFF0E5 100%);
+    background: -webkit-linear-gradient(top, #E0F8FF 0%, #FFF0E5 100%);
+    background: linear-gradient(to bottom, #E0F8FF 0%, #FFF0E5 100%);
+}
+
+.cta-call {
+    margin: 30px 0 0;
+}
+
+.cta-call a {
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 0 0 10px;
+    color: #6A6A8E;
+}
+
+.cta-call i {
+    margin: 0 5px 0 0;
+}
+
+.shape {
+    position: absolute;
+}
+
+.shape-a1 {
+    bottom: -20px;
+    left: 0;
+}
+
+.shape-a2 {
+    right: 0;
+    bottom: -30px;
+}
+
+.shape-a3 {
+    top: 0;
+    right: 0;
+}
+
+.shape-a4 {
+    top: -150px;
+    right: 20%;
+}

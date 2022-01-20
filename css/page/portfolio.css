@@ -1,0 +1,42 @@
+.portfolio-section {
+  background: #fff;
+  position: relative;
+}
+.portfolio-section::before {
+  content: "";
+  background: url(../../img/dot-pattern.png);
+  position: absolute;
+  height: 400px;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-size: auto;
+  background-repeat: repeat;
+}
+.portfolio-section .isotope_item .item-image {
+  position: relative;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f3f9ff;
+  box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
+    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
+    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+}
+.isotope_item .item-image img {
+  width: 100%;
+}
+.isotope_item:hover .item-image img {
+  transform: scale(1.05);
+}
+.isotope_item h4 {
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.isotope_item h4 a {
+  color: #050748;
+}
+.item-info {
+  padding: 20px 0 0;
+}

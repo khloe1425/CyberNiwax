@@ -1,0 +1,45 @@
+.owl-carousel .owl-dots .owl-dot {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    vertical-align: middle;
+}
+
+.owl-carousel .owl-dots .owl-dot:after, .owl-carousel .owl-dots .owl-dot:before {
+    position: absolute;
+    content: '';
+    -webkit-transition: ease-out .16s;
+    transition: ease-out .16s;
+    border-radius: 50%;
+}
+
+.owl-carousel .owl-dots .owl-dot.active:after, .owl-carousel .owl-dots .owl-dot.active:before {
+    opacity: 1;
+}
+
+.owl-carousel .owl-dots .owl-dot:before {
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    opacity: 0;
+    border: 1px solid #FF1F8E;
+    background: 0 0;
+}
+
+.owl-carousel .owl-dots .owl-dot:after {
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: .4;
+    background: #FF1F8E;
+}
+
+.owl-carousel .owl-dots .owl-dot.active:after, .owl-carousel .owl-dots .owl-dot:focus:after, .owl-carousel .owl-dots .owl-dot:hover:after {
+    opacity: 1;
+}

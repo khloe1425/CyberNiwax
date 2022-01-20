@@ -1,0 +1,73 @@
+.work-section {
+  background: linear-gradient(to bottom, #fbf9ed 0%, #fbeaf8 100%);
+  position: relative;
+}
+.cd1 {
+  background: #70e4e8;
+}
+.cd2 {
+  background: #f5eb92;
+}
+.cd3 {
+  background: #a3ffe2;
+}
+.cd4 {
+  background: #ffbc7a;
+}
+.cd5 {
+  background: #e3ff8e;
+}
+.cd6 {
+  background: #ffa0c6;
+}
+.cd7 {
+  background: #f3a6ff;
+}
+.cd8 {
+  background: #97ffaf;
+}
+.cd9 {
+  background: #6cfffa;
+}
+.cd10 {
+  background: #77baff;
+}
+.cd11 {
+  background: #ffefd4;
+}
+.cd12 {
+  background: #7affdb;
+}
+.icon-set {
+  width: 25%;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+.work-card {
+  margin: 10px;
+  padding: 30px 20px;
+  min-height: 170px;
+  max-height: 170px;
+  text-align: center;
+  border-radius: 8px 40px 8px 40px;
+  box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
+    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
+    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+}
+.icon-bg {
+  display: block;
+  height: 62px;
+  width: 62px;
+  margin: 0 auto;
+  text-align: center;
+}
+.work-card p {
+  color: #050748;
+  font-family: poppins, sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  margin: 5px 0 0;
+  padding: 0 12px;
+}

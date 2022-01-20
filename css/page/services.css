@@ -1,0 +1,117 @@
+/* First Card */
+.upset .service-sec-1 {
+  background: linear-gradient(to right, #9c27b0 0%, #673ab7 100%);
+  padding: 30px 25px;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 0 10px;
+  height: 240px;
+  box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
+    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
+    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+}
+.upset .service-sec-1 h4,
+.upset .service-sec-1 a {
+  color: #fff;
+}
+.upset .service-sec-1 a {
+  display: block;
+}
+/* remain card */
+.upset .card-padding {
+  padding: 52px 25px;
+}
+.upset .card-border {
+  transition: all 0.8s;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 0 10px;
+  height: 240px;
+  box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
+    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
+    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+}
+.upset .srcl1 {
+  background: #f3f5ff;
+  border-bottom: 4px solid #b0bdff;
+}
+.upset .srcl2 {
+  background: #fff3e6;
+  border-bottom: 4px solid #ffc093;
+}
+.upset .srcl3 {
+  background: #fbeefd;
+  border-bottom: 4px solid #f6bcff;
+}
+.upset .srcl4 {
+  background: #effdff;
+  border-bottom: 4px solid #9ff3ff;
+}
+.upset .srcl5 {
+  background: #fbfff1;
+  border-bottom: 4px solid #ffdaa2;
+}
+
+.upset img {
+  transition: width 0.5s, height 0.5s;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.upset li {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0 8px;
+  border-right: 1px solid #d4d4d4;
+  display: inline-block;
+}
+.upset li:first-child {
+  padding-left: 0;
+}
+.upset li a {
+  font-size: 13px;
+  color: #6a6a8e;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 5px;
+  display: inline-block;
+  font-weight: 700;
+}
+.upset .card-padding p {
+  display: none;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 14px 0 0;
+}
+
+/* Hover card */
+.card-border:hover {
+  padding: 25px;
+}
+.card-border:hover img {
+  height: 0;
+  width: 60px;
+}
+.card-border:hover p {
+  display: block;
+}
+/* btn hire */
+.hire-dev .v-center {
+  display: inline-flex;
+}
+.hire-dev p {
+  font-size: 30px;
+  color: #050748;
+  margin: 0 30px 0 0;
+}
+.hire-dev p span {
+  font-weight: 700;
+}
+.hire-dev .btn-hire {
+  background: linear-gradient(to right, #f92c8b 0%, #b02cd6 100%);
+  box-shadow: 0 10px 15px 0 rgb(175 0 202 / 20%);
+}
